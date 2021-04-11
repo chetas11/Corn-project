@@ -8,7 +8,7 @@ function Home() {
             <h4>Jagruti Agro Venture</h4>
             <h1>THE BEST CORN</h1>
             <h3>YOU'LL EVER EAT</h3>
-            <button className="btn cto">
+            <button className="cto">
               <span>
                 PRODUCTS <i class="fas fa-arrow-right"></i>
               </span>

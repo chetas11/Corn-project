@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Navbar() {
   const classes = useStyles();
+  
   return (
     <div>
       <div>
@@ -21,11 +22,11 @@ function Navbar() {
         >
           <Toolbar>
             <Typography variant="h6" className={classes.title}></Typography>
-            <h6 className="m-0">Home</h6>
-            <h6 className="m-0">Gallery</h6>
-            <h6 className="m-0">Projects</h6>
-            <h6 className="m-0">About Us</h6>
-            <h6 className="m-0">Contact</h6>
+            <a className="m-0">Home</a>
+            <a className="m-0">Gallery</a>
+            <a className="m-0">Projects</a>
+            <a className="m-0">About Us</a>
+            <a className="m-0">Contact</a>
           </Toolbar>
         </AppBar>
       </div>

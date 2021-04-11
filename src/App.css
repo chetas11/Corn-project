@@ -1,4 +1,4 @@
-h6{
+a{
   color: #333333;
   font-size: 18px;
   padding: 0px 20px;
@@ -6,6 +6,7 @@ h6{
   opacity: 0.6;
   font-family: 'Poppins', sans-serif;
   font-weight:600;
+  text-decoration: none;
 }
 
 body{
@@ -53,6 +54,12 @@ h3{
   font-size: 1.1rem;
   font-family: 'Poppins', sans-serif;
   padding: 10px;
+  color: #333333;
+  border: none;
+}
+
+.cto:hover{
+  background-color: #707070;
 }
 
 
