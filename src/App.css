@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+h6{
+  color: #333333;
+  font-size: 18px;
+  padding: 0px 20px;
+  margin: 0px;
+  opacity: 0.6;
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0px;
+  padding: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFEAB7;
+  margin: 200px 0px 0px 100px !important;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h3{
+  color: #DBB14E;
+  margin: 0px 0px 0px 100px !important;
+  font-weight:800;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  font-size: 2.2rem;
 }
+
+.banner{
+  background-image: url("./Images/Banner.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.cto{
+  width: 200px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 50px 0px 0px 100px;
+  font-weight:600;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+
+
+
