@@ -11,26 +11,55 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Navbar() {
-  const classes = useStyles();
-  
+  const classNamees = useStyles();
+
   return (
-    <div>
-      <div>
-        <AppBar
-          position="fixed"
-          style={{ backgroundColor: "#eeeeee", color: "blanchedalmond" }}
-        >
-          <Toolbar>
-            <Typography variant="h6" className={classes.title}></Typography>
-            <a className="m-0">Home</a>
-            <a className="m-0">Gallery</a>
-            <a className="m-0">Projects</a>
-            <a className="m-0">About Us</a>
-            <a className="m-0">Contact</a>
-          </Toolbar>
-        </AppBar>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <span className="navbar-brand" href="#">
+        
+      </span>
+      <button
+        className="navbar-toggler m-1"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <a href="#">
+              Home <span className="sr-only">(current)</span>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#">
+              Gallery
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#">
+              About Us
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 
