@@ -71,6 +71,14 @@ h3{
   background-color: #d8e3e7;
 }
 
+@media only screen and (max-width: 992px){
+    .navbar-toggler{
+      top:25%;
+      right: 5%;
+      position: absolute;
+    }
+}
+
 
 @media only screen and (max-width: 562px){
     a{
@@ -99,6 +107,9 @@ h3{
   .logo{
     margin-left: 50px;
   }
+
+
+
 }
 
 @media only screen and (max-width: 375px){
