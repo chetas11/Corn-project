@@ -1,22 +1,12 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-
-const useStyles = makeStyles((theme) => ({
-  title: {
-    flexGrow: 1,
-  },
-}));
+import logo from '../Images/logo.png'
 
 function Navbar() {
-  const classNamees = useStyles();
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <span className="navbar-brand" href="#">
-        
+        <img className="img-fluid logo" src={logo} alt="logo" />
       </span>
       <button
         className="navbar-toggler m-1"
@@ -38,24 +28,16 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#">
-              Gallery
-            </a>
+            <a href="#">Gallery</a>
           </li>
           <li className="nav-item">
-            <a href="#">
-              Projects
-            </a>
+            <a href="#">Projects</a>
           </li>
           <li className="nav-item">
-            <a href="#">
-              About Us
-            </a>
+            <a href="#">About Us</a>
           </li>
           <li className="nav-item">
-            <a href="#">
-              Contact
-            </a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </div>
