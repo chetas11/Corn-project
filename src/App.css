@@ -94,6 +94,11 @@ h2{
   color: #DBB14E;
 }
 
+.card, .card-img-top{
+  border-radius: 30px;
+  border-color: inherit;
+}
+
 
 .contact-div{
   background-image: url("./Images/ContactBackground.png");
@@ -109,6 +114,14 @@ h2{
       top:25%;
       right: 5%;
       position: absolute;
+    }
+
+    .contact-div{
+      height: 100vh;
+    }
+
+    .banner{
+      height: 100vh;
     }
 }
 
@@ -141,9 +154,13 @@ h2{
       margin: 50px 0px 0px 50px;
     }
 
-  .logo{
-    margin-left: 50px;
-  }
+    .logo{
+      margin-left: 50px;
+    }
+
+    .contact-div{
+      height: 110vh;
+    }
 
 
 
