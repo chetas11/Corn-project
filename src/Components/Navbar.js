@@ -1,5 +1,7 @@
 import React from "react";
 import logo from '../Images/logo.png'
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
 
@@ -23,21 +25,29 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item active">
-            <a href="#">
-              Home <span className="sr-only">(current)</span>
-            </a>
+            <Link to="/">
+              <button>Home</button>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#">Gallery</a>
+            <Link to="/gallery">
+              <button>Gallery</button>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#">Projects</a>
+            <Link to="/products">
+              <button>Products</button>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#">About Us</a>
+            <Link to="/aboutus">
+              <button>About Us</button>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#">Contact</a>
+            <Link to="/contact">
+              <button>Contact</button>
+            </Link>
           </li>
         </ul>
       </div>

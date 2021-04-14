@@ -1,4 +1,4 @@
-a{
+li button{
   color: #333333;
   font-size: 18px;
   padding: 0px 20px;
@@ -6,7 +6,8 @@ a{
   opacity: 0.6;
   font-family: 'Poppins', sans-serif;
   font-weight:600;
-  text-decoration: none;
+  border: none;
+  background-color: inherit;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
 h4{
   font-family: Arial, Helvetica, sans-serif;
   color: #FFEAB7;
-  margin: 200px 0px 0px 100px !important;
+  margin: 150px 0px 0px 100px !important;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -46,7 +47,18 @@ h3{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover !important;
-  height: 90.8vh;
+  height: 87vh;
+}
+
+.inputs{
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  width: 80%;
+  padding-bottom:5px;
 }
 
 .cto{
@@ -69,6 +81,27 @@ h3{
 
 .cto:hover{
   background-color: #d8e3e7;
+}
+
+.contact-col{
+  margin: 80px 0px 0px 100px !important;
+}
+
+h2{
+  font-size: 2.2rem;
+  font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  color: #DBB14E;
+}
+
+
+.contact-div{
+  background-image: url("./Images/ContactBackground.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  height: 87vh;
 }
 
 @media only screen and (max-width: 992px){
