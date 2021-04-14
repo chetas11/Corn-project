@@ -15,7 +15,9 @@ function Contact() {
                 <input type="email" className="inputs" placeholder="Email" />
                 <br />
                 <br />
-                <input rows="0" className="inputs" placeholder="Your Message" />
+                <textarea rows="1" className="inputs" placeholder="Your Message" />
+                <br />
+                <br />
               </div>
               <div className="col-lg-6 col-sm-6 col-sm-12 col-12">
                 <input className="inputs" placeholder="Phone" />
