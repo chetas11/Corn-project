@@ -4,6 +4,7 @@ function Contact() {
   return (
     <div className="container-fluid contact-div">
       <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <div className="row">
           <div className="col-7 contact-col">
             <h2>Contact Us</h2>
