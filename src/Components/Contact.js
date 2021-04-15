@@ -78,7 +78,7 @@ function Contact() {
                 <input
                   className="inputs"
                   placeholder="City/Location"
-                  name="City/Location"
+                  name="Location"
                 />
                 <br />
                 <br />

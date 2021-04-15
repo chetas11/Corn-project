@@ -1,47 +1,48 @@
-li button{
+li button {
   color: #333333;
   font-size: 18px;
   padding: 0px 20px;
   margin: 0px;
   opacity: 0.6;
-  font-family: 'Poppins', sans-serif;
-  font-weight:600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   border: none;
   background-color: inherit;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
 
-h4{
+h4 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #FFEAB7;
+  color: #ffeab7;
   margin: 150px 0px 0px 100px !important;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-h1, h3{
-  color: #DBB14E;
+h1,
+h3 {
+  color: #dbb14e;
   margin: 0px 0px 0px 100px !important;
-  font-weight:800;
+  font-weight: 800;
 }
 
-h1{
+h1 {
   font-size: 5rem;
 }
 
-h3{
+h3 {
   font-size: 2.2rem;
 }
 
-.navbar{
+.navbar {
   padding: 2px;
 }
 
-.banner{
+.banner {
   background-image: url("./Images/Banner.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -50,7 +51,7 @@ h3{
   height: 87vh;
 }
 
-.inputs{
+.inputs {
   border: none;
   border-bottom: 1px solid white;
   border-radius: 0px;
@@ -58,58 +59,62 @@ h3{
   color: white;
   background-color: inherit;
   width: 80%;
-  padding-bottom:5px;
+  padding-bottom: 5px;
 }
 
-.cto{
+.cto {
   background-color: white;
   border-radius: 30px;
   margin: 50px 0px 0px 100px;
-  font-weight:600;
+  font-weight: 600;
   font-size: 1.1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 15px 30px;
   color: #333333;
   border: none;
 }
 
-.logo{
-  width:80px;
-  height:80px;
+.logo {
+  width: 80px;
+  height: 80px;
   margin-left: 110px;
 }
 
-.cto:hover{
+.navbar-nav {
+  margin-right: 110px !important;
+}
+
+.cto:hover {
   background-color: #d8e3e7;
 }
 
-.contact-col{
+.contact-col {
   margin: 80px 0px 0px 100px !important;
 }
 
-#GalleryImg{
+#GalleryImg {
   width: 100%;
   height: 100%;
   border-color: #333333;
   border-radius: 30px;
 }
 
-h2{
+h2 {
   font-size: 2.2rem;
   font-weight: 900;
-    font-family: 'Poppins', sans-serif;
-  color: #DBB14E;
+  font-family: "Poppins", sans-serif;
+  color: #dbb14e;
 }
 
-.card, .card-img-top{
+.card,
+.card-img-top {
   border-radius: 30px;
   border-color: #333333;
   width: 280px;
   height: 280px;
 }
 
-
-.contact-div{
+.contact-div {
   background-image: url("./Images/ContactBackground.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -118,74 +123,66 @@ h2{
   height: 87vh;
 }
 
-@media only screen and (max-width: 992px){
-    .navbar-toggler{
-      top:25%;
-      right: 5%;
-      position: absolute;
-    }
+@media only screen and (max-width: 992px) {
+  .navbar-toggler {
+    top: 25%;
+    right: 5%;
+    position: absolute;
+  }
 
-    .contact-div{
-      height: 100vh;
-    }
+  .contact-div {
+    height: 100vh;
+  }
 
-    .banner{
-      height: 100vh;
-    }
+  .banner {
+    height: 100vh;
+  }
 }
 
+@media only screen and (max-width: 562px) {
+  a {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
 
-@media only screen and (max-width: 562px){
-    a{
-      padding: 20px;
-    }
-    h1{
-      font-size: 4rem;
-    }
+  h3 {
+    font-size: 2.2rem;
+  }
 
-    h3{
-      font-size: 2.2rem;
-    }
-
-    h1, h3{
+  h1,
+  h3 {
     margin: 0px 0px 0px 50px !important;
   }
 
-    h4{
-      margin: 150px 0px 0px 50px !important;
-    }
+  h4 {
+    margin: 150px 0px 0px 50px !important;
+  }
 
-    .contact-col{
-      margin: 80px 0px 0px 50px !important;
-    }
+  .contact-col {
+    margin: 80px 0px 0px 50px !important;
+  }
 
-    .cto{
-      margin: 50px 0px 0px 50px;
-    }
+  .cto {
+    margin: 50px 0px 0px 50px;
+  }
 
-    .logo{
-      margin-left: 50px;
-    }
+  .logo {
+    margin-left: 50px;
+  }
 
-    .contact-div{
-      height: 110vh;
-    }
-
-
-
+  .contact-div {
+    height: 110vh;
+  }
 }
 
-@media only screen and (max-width: 375px){
-    .banner{
-      height: 100vh;
-    }
+@media only screen and (max-width: 375px) {
+  .banner {
+    height: 100vh;
+  }
 
-    h4{
-      margin: 100px 0px 0px 50px !important;
-    }
-
+  h4 {
+    margin: 100px 0px 0px 50px !important;
+  }
 }
-
-
-
-
