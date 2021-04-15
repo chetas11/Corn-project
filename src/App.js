@@ -17,7 +17,7 @@ function App() {
           <Route path="/gallery">
             <Gallery />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>

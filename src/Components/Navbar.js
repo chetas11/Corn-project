@@ -1,10 +1,8 @@
 import React from "react";
-import logo from '../Images/logo.png'
-import { Link } from "react-router-dom";
-
+import logo from "../Images/logo.png";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <span className="navbar-brand" href="#">
@@ -24,30 +22,34 @@ function Navbar() {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
-          <li className="nav-item active">
-            <Link to="/">
-              <button>Home</button>
-            </Link>
+          <li className="nav-item">
+            <NavLink exact className="navlink" activeClassName="active" to="/">
+              Home
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/gallery">
-              <button>Gallery</button>
-            </Link>
+            <NavLink className="navlink" activeClassName="active" to="/gallery">
+              Gallery
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/products">
-              <button>Products</button>
-            </Link>
+            <NavLink
+              className="navlink"
+              activeClassName="active"
+              to="/products"
+            >
+              Products
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/aboutus">
-              <button>About Us</button>
-            </Link>
+            <NavLink className="navlink" activeClassName="active" to="/aboutus">
+              About Us
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/contact">
-              <button>Contact</button>
-            </Link>
+            <NavLink className="navlink" activeClassName="active" to="/contact">
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
