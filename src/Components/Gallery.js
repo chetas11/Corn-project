@@ -20,9 +20,9 @@ function Gallery() {
               <div className="col-lg-3 col-md-3 col-sm-6">
                 <div className="card m-2">
                   <img
+                    id="GalleryImg" 
                     key={tabIndex}
                     src={image}
-                    height="300px"
                     className="card-img-top"
                     alt="..."
                   ></img>
