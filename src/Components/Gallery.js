@@ -17,10 +17,9 @@ function Gallery() {
           <h2 className="mt-5">Gallery</h2>
           <div className="row text-center mt-4">
             {Images.map((image, tabIndex) => (
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="card m-2">
+              <div className="col-lg-3 col-md-3 col-sm-6 p-2">
+                <div className="card">
                   <img
-                    id="GalleryImg" 
                     key={tabIndex}
                     src={image}
                     className="card-img-top"
