@@ -7,27 +7,76 @@ import Image5 from "../Images/Image5.png";
 import Image6 from "../Images/Image6.png";
 import Image7 from "../Images/Image7.png";
 
-const Images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7];
 
 function Gallery() {
   return (
-    <div className="container-fluid" style={{ backgroundColor: "#333333" }}>
+    <div className="container-fluid" style={{ backgroundColor: "#1e1e1e", padding:"60px" }}>
       <div className="container">
         <div className="row">
-          <h2 className="mt-5">Gallery</h2>
-          <div className="row text-center mt-4">
-            {Images.map((image, tabIndex) => (
-              <div className="col-lg-3 col-md-3 col-sm-6 p-2">
-                <div className="card">
-                  <img
-                    key={tabIndex}
-                    src={image}
-                    className="card-img-top"
-                    alt="..."
-                  ></img>
+          <h2>Gallery</h2>
+          <div className="col-md-12 mt-4">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div className="row">
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image6} alt="Corn" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image2} alt="Corn" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image4} alt="Corn" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image7} alt="Corn" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div className="row">
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image1} alt="Corn" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image5} alt="Corn" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="img-box">
+                        <img src={Image3} alt="Corn" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

@@ -23,31 +23,48 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <NavLink exact className="navlink" activeClassName="active" to="/">
+            <NavLink
+              exact
+              className="navlink"
+              activeClassName="activeNavLinks"
+              to="/"
+            >
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="navlink" activeClassName="active" to="/gallery">
+            <NavLink
+              className="navlink"
+              activeClassName="activeNavLinks"
+              to="/gallery"
+            >
               Gallery
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
               className="navlink"
-              activeClassName="active"
+              activeClassName="activeNavLinks"
               to="/products"
             >
               Products
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="navlink" activeClassName="active" to="/aboutus">
+            <NavLink
+              className="navlink"
+              activeClassName="activeNavLinks"
+              to="/aboutus"
+            >
               About Us
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="navlink" activeClassName="active" to="/contact">
+            <NavLink
+              className="navlink"
+              activeClassName="activeNavLinks"
+              to="/contact"
+            >
               Contact
             </NavLink>
           </li>
