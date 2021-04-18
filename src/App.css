@@ -56,7 +56,7 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover !important;
-  height: 87vh;
+  padding-bottom: 150px;
 }
 
 .inputs {
@@ -128,6 +128,7 @@ h2 {
 }
 
 .contact-div {
+  /* background-color: #1e1e1e; */
   background-image: url("./Images/ContactBackground.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -139,11 +140,15 @@ h2 {
 .img-box{
   width: 308px;
   height: 308px;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
 }
 
 .img-box img{
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .carousel-indicators{
