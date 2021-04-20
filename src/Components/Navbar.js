@@ -54,7 +54,7 @@ function Navbar() {
             <NavLink
               className="navlink"
               activeClassName="activeNavLinks"
-              to="/aboutus"
+              to="/about"
             >
               About Us
             </NavLink>

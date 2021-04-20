@@ -10,11 +10,14 @@ import Image7 from "../Images/Image7.png";
 
 function Gallery() {
   return (
-    <div className="container-fluid" style={{ backgroundColor: "#1e1e1e", padding:"60px" }}>
+    <div
+      className="container-fluid"
+      style={{ backgroundColor: "#1e1e1e", padding: "60px" }}
+    >
       <div className="container">
         <div className="row">
           <h2>Gallery</h2>
-          <div className="col-md-12 mt-4">
+          <div className="col-lg-12 col-md-12 mt-4">
             <div
               id="carouselExampleIndicators"
               class="carousel slide"
@@ -34,23 +37,23 @@ function Gallery() {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div className="row">
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image6} alt="Corn" />
                       </div>
                     </div>
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image2} alt="Corn" />
                       </div>
                     </div>
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image4} alt="Corn" />
                       </div>
                     </div>
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image7} alt="Corn" />
                       </div>
                     </div>
@@ -58,18 +61,18 @@ function Gallery() {
                 </div>
                 <div class="carousel-item">
                   <div className="row">
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image1} alt="Corn" />
                       </div>
                     </div>
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image5} alt="Corn" />
                       </div>
                     </div>
-                    <div className="col-md-3">
-                      <div className="img-box">
+                    <div className="col-lg-3 col-md-3">
+                      <div className="img-box card">
                         <img src={Image3} alt="Corn" />
                       </div>
                     </div>

@@ -1,4 +1,8 @@
 import React from 'react'
+import Product1 from "../Images/Product1.png";
+import Product2 from "../Images/Product2.png";
+import Product3 from "../Images/Product3.png";
+
 
 function Product() {
     return (
@@ -10,10 +14,10 @@ function Product() {
         <div className="container">
           <div className="row">
             <h2>Products</h2>
-            <div className="row">
-              <div className="col-md-4">
-                <div className="img-box">
-                  <img alt="Corn" />
+            <div className="row mt-3">
+              <div className="col-lg-4 col-md-12">
+                <div className="product-box card">
+                  <img alt="Corn" src={Product1} />
                   <h4>Frozen Sweet Corn Kernel</h4>
                   <div className="row">
                     <div className="col-12 col-lg-6 col-md-6 col-sm-6">
@@ -29,9 +33,9 @@ function Product() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="img-box">
-                  <img alt="Corn" />
+              <div className="col-lg-4 col-md-12">
+                <div className="product-box card">
+                  <img alt="Corn" src={Product2} />
                   <h4>Frozen Sweet Corn Kernel</h4>
                   <div className="row">
                     <div className="col-12 col-lg-6 col-md-6 col-sm-6">
@@ -47,9 +51,9 @@ function Product() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="img-box">
-                  <img alt="Corn" />
+              <div className="col-lg-4 col-md-12">
+                <div className="product-box card">
+                  <img alt="Corn" src={Product3} />
                   <h4>Frozen Sweet Corn Kernel</h4>
                   <div className="row">
                     <div className="col-12 col-lg-6 col-md-6 col-sm-6">

@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import Gallery from "./Components/Gallery";
 import Product from "./Components/Product";
+import About from "./Components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -21,9 +22,14 @@ function App() {
           <Route path="/products">
             <Product />
           </Route>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route exact path="/">
             <Home />
             <Gallery />
+            <Product />
+            <About />
             <Contact />
           </Route>
         </Switch>
