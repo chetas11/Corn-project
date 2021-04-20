@@ -15,7 +15,7 @@ function Product() {
           <div className="row">
             <h2>Products</h2>
             <div className="row mt-3">
-              <div className="col-lg-4 col-md-12">
+              <div className="col-lg-4 col-md-12 mb-3">
                 <div className="product-box card">
                   <img alt="Corn" src={Product1} />
                   <h4>Frozen Sweet Corn Kernel</h4>
@@ -33,7 +33,7 @@ function Product() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12">
+              <div className="col-lg-4 col-md-12 mb-3">
                 <div className="product-box card">
                   <img alt="Corn" src={Product2} />
                   <h4>Frozen Sweet Corn Kernel</h4>
@@ -51,7 +51,7 @@ function Product() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12">
+              <div className="col-lg-4 col-md-12 mb-3">
                 <div className="product-box card">
                   <img alt="Corn" src={Product3} />
                   <h4>Frozen Sweet Corn Kernel</h4>

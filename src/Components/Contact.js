@@ -30,8 +30,6 @@ function Contact() {
       <form
         name="contact"
         onSubmit={sendEmail}
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="row">
@@ -43,7 +41,6 @@ function Contact() {
                   className="inputs"
                   required
                   name="Name"
-                  autoFocus
                   placeholder="Name *"
                 />
                 <br />
